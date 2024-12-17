@@ -37,7 +37,7 @@ export const Footer = () => {
           className="md:mt-10"
         >
           <MagicButton
-            title="Let's get in touch"
+            title="Just 1 Click"
             icon={<FaLocationArrow />}
             position="right"
             asChild
