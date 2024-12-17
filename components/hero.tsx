@@ -50,7 +50,7 @@ export const Hero = () => {
                 asChild
               />
             </Link>
-            <Link href="https://api.whatsapp.com/send?phone=918619294422&text=Hello%20Prem,%20I%20am%20interested%20in%20your%20serviceshttps://api.whatsapp.com/send?phone=918619294422&text=Hello%20Prem,%20I%20am%20interested%20in%20your%20services" className="md:mt-10 mt-3 block">
+            <Link href="https://api.whatsapp.com/send?phone=918619294422&text=Hello%20Prem,%20I%20am%20interested%20in%20your%20services" className="md:mt-10 mt-3 block">
               <MagicButton
                 title="Just 1 Click"
                 icon={<FaWhatsapp />}
