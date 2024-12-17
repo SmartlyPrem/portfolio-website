@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
@@ -40,14 +41,24 @@ export const Hero = () => {
             Hi, I&apos;m {links.ownerName}, a MERN Stack developer based in India.
           </p>
 
-          <Link href="#projects" className="md:mt-10">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-              asChild
-            />
-          </Link>
+          <div className="md:flex justify-content-center align-items-center gap-6">
+            <Link href="#projects" className="md:mt-10">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+                asChild
+              />
+            </Link>
+            <Link href="https://api.whatsapp.com/send?phone=918619294422&text=Hello%20Prem,%20I%20am%20interested%20in%20your%20serviceshttps://api.whatsapp.com/send?phone=918619294422&text=Hello%20Prem,%20I%20am%20interested%20in%20your%20services" className="md:mt-10 mt-3 block">
+              <MagicButton
+                title="Just 1 Click"
+                icon={<FaWhatsapp />}
+                position="right"
+                asChild
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
