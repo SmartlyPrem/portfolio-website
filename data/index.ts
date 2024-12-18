@@ -192,8 +192,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Web Developer",
-    desc: "After completing my coaching, I joined DevDevGo.com as a remote web developer, enhancing my skills through diverse projects before leaving to pursue personal growth and advance my web development career.",
+    title: "Web Developer at Serva Applabs",
+    desc: "As a Web Developer at Serva Applabs, I craft responsive websites and apps, delivering innovative, client-focused solutions for startups and enterprises, enhancing digital experiences through creativity and collaboration.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
