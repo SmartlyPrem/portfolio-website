@@ -47,7 +47,7 @@ export const Footer = () => {
       </div>
 
       <div className="relative z-[999] mt-16 flex flex-col items-center justify-between md:flex-row">
-        <p className="text-sm font-light md:text-base md:font-normal">
+        <p className="text-sm font-light md:text-base md:font-normal mb-3">
           Copyright &copy; {new Date().getFullYear()}{" "}
           <Link
             href="https://www.linkedin.com/in/prem-jatol/"
