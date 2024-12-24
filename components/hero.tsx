@@ -42,7 +42,7 @@ export const Hero = () => {
           </p>
 
           <div className="md:flex justify-content-center align-items-center gap-6">
-            <Link href="#projects" className="md:mt-10">
+            <Link href="#projects" className="md:mt-10 mb-5 md:mb-0">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
@@ -50,7 +50,7 @@ export const Hero = () => {
                 asChild
               />
             </Link>
-            <Link href="https://calendly.com/premjatol25/book-call?month=2024-12" className="mt-5">
+            <Link href="https://calendly.com/premjatol25/book-call?month=2024-12" className="md:mt-10">
               <MagicButton
                 title="Book 1:1 Call"
                 icon={<FaLocationArrow />}
