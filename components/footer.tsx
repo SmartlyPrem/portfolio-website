@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { MagicButton } from "@/components/ui/magic-button";
 import { links } from "@/config";
@@ -37,8 +38,8 @@ export const Footer = () => {
           className="md:mt-10"
         >
           <MagicButton
-            title="Just 1 Click"
-            icon={<FaLocationArrow />}
+            title="Connect on WhastApp"
+            icon={<FaWhatsapp />}
             position="right"
             asChild
           />
