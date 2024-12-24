@@ -50,7 +50,7 @@ export const Hero = () => {
                 asChild
               />
             </Link>
-            <Link href="https://calendly.com/premjatol25/book-call?month=2024-12">
+            <Link href="https://calendly.com/premjatol25/book-call?month=2024-12" className="mt-5">
               <MagicButton
                 title="Book 1:1 Call"
                 icon={<FaLocationArrow />}
