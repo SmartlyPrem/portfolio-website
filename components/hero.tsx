@@ -42,12 +42,13 @@ export const Hero = () => {
           </p>
 
           <div className="md:flex justify-content-center align-items-center gap-6">
-            <Link href="#projects" className="md:mt-10 mb-5 md:mb-0">
+            <Link href="#projects" className="md:mt-10">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
                 position="right"
                 asChild
+                className="mb-5 md:mb-0"
               />
             </Link>
             <Link href="https://calendly.com/premjatol25/book-call?month=2024-12" className="md:mt-10">
