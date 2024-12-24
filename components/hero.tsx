@@ -48,7 +48,6 @@ export const Hero = () => {
                 icon={<FaLocationArrow />}
                 position="right"
                 asChild
-                className="mb-5 md:mb-0"
               />
             </Link>
             <Link href="https://calendly.com/premjatol25/book-call?month=2024-12" className="md:mt-10">
